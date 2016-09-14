@@ -1,3 +1,6 @@
+/**
+ * by webprog26
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -53,10 +56,9 @@ int _strcmp(char* s, char* s1)
 int main()
 {
 
-    //char text[MAXLENGTH];
+    char text[MAXLENGTH];
 
-
-    char* text = "mg mf fghhhghgdhsg mg fghhhghgdhssdss mg fghhhghgdhhhhh mf";
+    scanf("%s", text);
 
     char strings[MAXLENGTH][MAXLENGTH];
 
